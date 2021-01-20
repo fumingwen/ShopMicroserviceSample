@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RBYmNXAHUibRBUTHzi3k8gNqRlcWGSjNVGHTNAPZQr/V3C58XGiPpE3ApVsz/ErI7WXarY2s6oboOMXyRFyROA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\ConsoleClient\\ConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

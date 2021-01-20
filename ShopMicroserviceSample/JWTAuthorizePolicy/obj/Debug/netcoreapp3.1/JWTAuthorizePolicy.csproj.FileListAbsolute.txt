@@ -1,0 +1,9 @@
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\netcoreapp3.1\JWTAuthorizePolicy.deps.json
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\netcoreapp3.1\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\netcoreapp3.1\JWTAuthorizePolicy.pdb
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.csprojAssemblyReference.cache
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.AssemblyInfoInputs.cache
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.AssemblyInfo.cs
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.pdb

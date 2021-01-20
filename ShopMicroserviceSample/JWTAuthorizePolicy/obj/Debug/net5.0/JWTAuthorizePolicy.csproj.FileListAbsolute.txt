@@ -1,0 +1,12 @@
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.AssemblyInfoInputs.cache
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.AssemblyInfo.cs
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\net5.0\JWTAuthorizePolicy.deps.json
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\net5.0\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\net5.0\ref\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Debug\net5.0\JWTAuthorizePolicy.pdb
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\ref\JWTAuthorizePolicy.dll
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.pdb
+C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\net5.0\JWTAuthorizePolicy.csprojAssemblyReference.cache
