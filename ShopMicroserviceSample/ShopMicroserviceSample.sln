@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBasic", "DataBasic\DataBasic.csproj", "{AC5F5974-631F-4DC5-B089-E5E534F6AE8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryService", "SalaryService\SalaryService.csproj", "{16BC81DD-63BD-490E-BB3B-69F01A61B97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{AC5F5974-631F-4DC5-B089-E5E534F6AE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC5F5974-631F-4DC5-B089-E5E534F6AE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC5F5974-631F-4DC5-B089-E5E534F6AE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BC81DD-63BD-490E-BB3B-69F01A61B97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BC81DD-63BD-490E-BB3B-69F01A61B97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BC81DD-63BD-490E-BB3B-69F01A61B97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BC81DD-63BD-490E-BB3B-69F01A61B97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{250B64AD-E433-4192-9A81-8AD5A76A40C9} = {99776494-D247-4DA6-BEFF-0C583B73F6EB}
 		{26385DE7-2268-4F93-91C2-9A40C69116B3} = {99776494-D247-4DA6-BEFF-0C583B73F6EB}
 		{AC5F5974-631F-4DC5-B089-E5E534F6AE8B} = {99776494-D247-4DA6-BEFF-0C583B73F6EB}
+		{16BC81DD-63BD-490E-BB3B-69F01A61B97C} = {A7D9C0E1-4EBD-424E-A9BB-83AFFF92F24D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F257BF12-2F4A-4D0E-A404-1886A68B7B61}

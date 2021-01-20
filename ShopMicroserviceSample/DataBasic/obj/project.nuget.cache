@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ap6WQry3hO1l4/yqcBc4YcAKBSG0bHGV69fl+l9llOqLB9Lo2GE41R3GFHFdDpcRc7o9Xluu48GtY4HYLvh+UQ==",
+  "dgSpecHash": "R5GBMQEjYTmFkv2JI18o68eB6SfS2H2JygbJNYzZ1fQRAly0S/i1z/a7VefSDucNf4WPUS1nv1kwAmNHkX7lLA==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.data.sqlite\\2.2.4\\microsoft.data.sqlite.2.2.4.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.data.sqlite.core\\2.2.4\\microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",

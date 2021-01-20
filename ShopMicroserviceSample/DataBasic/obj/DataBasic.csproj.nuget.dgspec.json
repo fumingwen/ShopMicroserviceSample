@@ -130,6 +130,10 @@
               "target": "Package",
               "version": "[2.0.78, )"
             },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "SqlSugarCore": {
               "target": "Package",
               "version": "[5.0.2.2, )"

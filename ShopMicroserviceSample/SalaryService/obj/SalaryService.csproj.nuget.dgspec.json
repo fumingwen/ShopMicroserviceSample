@@ -1,0 +1,396 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SalaryService\\SalaryService.csproj": {}
+  },
+  "projects": {
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.DESKTOP-LOM86CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj",
+        "projectName": "DataBasic",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj",
+        "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.DESKTOP-LOM86CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.2.2, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
+        "projectName": "JWTAuthorizePolicy",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
+        "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.DESKTOP-LOM86CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SalaryService\\SalaryService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SalaryService\\SalaryService.csproj",
+        "projectName": "SalaryService",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SalaryService\\SalaryService.csproj",
+        "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SalaryService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.DESKTOP-LOM86CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj"
+              },
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj"
+              },
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\ServiceBasic.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\ServiceBasic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\ServiceBasic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\ServiceBasic.csproj",
+        "projectName": "ServiceBasic",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\ServiceBasic.csproj",
+        "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ServiceBasic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator.DESKTOP-LOM86CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj"
+              },
+              "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj": {
+                "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\DataBasic\\DataBasic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

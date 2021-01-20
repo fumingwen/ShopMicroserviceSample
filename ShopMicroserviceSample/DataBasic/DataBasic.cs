@@ -14,6 +14,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
+using Microsoft.Extensions.Configuration;
 
 namespace DataBasic
 {
@@ -29,6 +30,10 @@ namespace DataBasic
 
         public TableMapper<Te> TableMapper { get; set; }
 
+        public DataBasic(IConfiguration configuration)
+        {
+            db = new DbFactory(configuration).db;
+        }
         public DataBasic(string configKey)
         {
             db = new DbFactory(configKey).db;

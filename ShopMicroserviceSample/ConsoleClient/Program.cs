@@ -19,7 +19,7 @@ namespace ConsoleClient
             dynamic token = null;
             while (true)
             {
-                Console.WriteLine("1、登录【admin】 2、登录【system】 3、登录【错误用户名密码】 4、查询BasicsService 5、查询InvoicingService ");
+                Console.WriteLine("1、登录【admin】 2、登录【system】 3、登录【错误用户名密码】 4、查询BasicsService 5、查询InvoicingService 6、查询SalaryService");
                 var mark = Console.ReadLine();
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
@@ -39,6 +39,9 @@ namespace ConsoleClient
                         break;
                     case "5":
                         InvoicingService(token);
+                        break;
+                    case "6":
+                        SalaryService(token);
                         break;
                 }
                 stopwatch.Stop();
@@ -105,6 +108,17 @@ namespace ConsoleClient
             string tk = "Bearer " + Convert.ToString(token?.access_token);
             client.AddDefaultHeader("Authorization", tk);
             var request = new RestRequest("/invoicing/api/values", Method.GET);
+            IRestResponse response = client.Execute(request);
+            var content = ((int)response.StatusCode) == 401 ? response.Headers.FirstOrDefault(s => s.Name == "error")?.Value?.ToString() : response.Content;
+            Console.WriteLine($"状态码：{(int)response.StatusCode} 状态信息：{response.StatusCode}  返回结果：{content}");
+        }
+        static void SalaryService(dynamic token)
+        {
+            var client = new RestClient(_url);
+            //这里要在获取的令牌字符串前加Bearer
+            string tk = "Bearer " + Convert.ToString(token?.access_token);
+            client.AddDefaultHeader("Authorization", tk);
+            var request = new RestRequest("/salary/api/values", Method.GET);
             IRestResponse response = client.Execute(request);
             var content = ((int)response.StatusCode) == 401 ? response.Headers.FirstOrDefault(s => s.Name == "error")?.Value?.ToString() : response.Content;
             Console.WriteLine($"状态码：{(int)response.StatusCode} 状态信息：{response.StatusCode}  返回结果：{content}");

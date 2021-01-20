@@ -110,8 +110,44 @@
         "PeriodTimespan": 15,
         "Limit": 100
       }
+    },
+    {
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6808
+        }
+      ],
+      "UpstreamPathTemplate": "/salary/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      //"ServiceName": "AuthenticationService",
+      //"LoadBalancer": "RoundRobin",
+      //"UseServiceDiscovery": true,
+      //"ReRouteIsCaseSensitive": false,
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      },
+      "HttpHandlerOptions": {
+        "AllowAutoRedirect": false,
+        "UseCookieContainer": false,
+        "UseTracing": false
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "",
+        "AllowedScopes": []
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [ "admin" ],
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "PeriodTimespan": 15,
+        "Limit": 100
+      }
     }
-
   ],
   "GlobalConfiguration": {
     "ServiceDiscoveryProvider": {
