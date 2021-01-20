@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SufM7VaeV3AfTrBj+SEBHk2aMj3HZcW9y+HHquqZ3Ds9NP+wcDbPmRirad25a/PzLdElach6LS+nOzZjEdEDcA==",
+  "dgSpecHash": "Q+2R8c52KSSZq2aDC9l4E8PBCp3/MQZcOEz2syaB4q4gPSDpqpypwdWj/gTj/URzkVlOMea1R9Qj77bsasXUug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OcelotGatewayService\\OcelotGatewayService.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OcelotGatewayService\\OcelotGatewayService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\app.metrics\\4.1.0\\app.metrics.4.1.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\app.metrics.abstractions\\4.1.0\\app.metrics.abstractions.4.1.0.nupkg.sha512",

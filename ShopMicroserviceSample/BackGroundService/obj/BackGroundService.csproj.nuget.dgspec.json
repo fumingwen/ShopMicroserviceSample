@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj": {}
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj": {
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
         "projectName": "BackGroundService",
-        "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
         "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\obj\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

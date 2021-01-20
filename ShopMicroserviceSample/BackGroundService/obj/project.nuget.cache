@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kAtgkT/b5fXVsG56bGrVmK1KG4OMz/kGdimFUt05JSaz30LWjfH4+YbyaBqM5penAPW9ZCGSIwXDlmvx/pTLmg==",
+  "dgSpecHash": "z0P1Ov2AFrmtT2zQfZavWMCh/NuVdUR4kh/Kpo7gX37+qnnsEtioKFqdAtNdcfNUNjel/tcVJzl7QgNmPjm27Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BackGroundService\\BackGroundService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

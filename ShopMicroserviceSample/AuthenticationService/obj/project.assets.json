@@ -5106,11 +5106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
+      "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
       "projectName": "AuthenticationService",
-      "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
+      "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\AuthenticationService\\obj\\",
+      "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\AuthenticationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5130,8 +5130,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj": {
-              "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj"
+            "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj": {
+              "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj"
             }
           }
         }

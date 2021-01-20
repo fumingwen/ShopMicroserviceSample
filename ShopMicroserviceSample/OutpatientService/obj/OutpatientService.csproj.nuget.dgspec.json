@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj": {}
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj": {
+    "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj",
+        "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj",
         "projectName": "OutpatientService",
-        "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj",
+        "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OutpatientService\\OutpatientService.csproj",
         "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\OutpatientService\\obj\\",
+        "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OutpatientService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

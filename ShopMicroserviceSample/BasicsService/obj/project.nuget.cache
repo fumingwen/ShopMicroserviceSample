@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOPqrUNo3FVhu09+KE4v2R7OhPnsT/vp7oUXyxNavLYU7wApEBNDaLU2Czbf0DWmY++h+NG/shkpiQpvVmP3OQ==",
+  "dgSpecHash": "Jism4h4X6Vvay1834OPGycnmEwOrIukfyRKJF1cOYC9A7dIbMVsftgXYYV1fgTTyK9BS4hwRWnzKhv8vpRLaXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\BasicsService\\BasicsService.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\BasicsService\\BasicsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\exceptionless\\4.6.2\\exceptionless.4.6.2.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\exceptionless.aspnetcore\\4.6.2\\exceptionless.aspnetcore.4.6.2.nupkg.sha512",

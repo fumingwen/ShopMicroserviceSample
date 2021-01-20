@@ -5085,11 +5085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
+      "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
       "projectName": "JWTAuthorizePolicy",
-      "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
+      "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\obj\\",
+      "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

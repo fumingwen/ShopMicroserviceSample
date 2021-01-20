@@ -1,0 +1,14 @@
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.csprojAssemblyReference.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.AssemblyInfoInputs.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.AssemblyInfo.cs
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.csproj.CoreCompileInputs.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\ServiceBasic.deps.json
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\ServiceBasic.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\ServiceBasic.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\Common.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\DataBasic.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\Common.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\bin\Debug\netcoreapp3.1\DataBasic.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.csproj.CopyComplete
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ServiceBasic\obj\Debug\netcoreapp3.1\ServiceBasic.pdb

@@ -84,11 +84,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\ConsoleClient\\ConsoleClient.csproj",
+      "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ConsoleClient\\ConsoleClient.csproj",
       "projectName": "ConsoleClient",
-      "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\ConsoleClient\\ConsoleClient.csproj",
+      "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ConsoleClient\\ConsoleClient.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\ConsoleClient\\obj\\",
+      "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\ConsoleClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

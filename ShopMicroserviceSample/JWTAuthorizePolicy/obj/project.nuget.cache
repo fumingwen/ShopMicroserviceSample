@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KMnqMhBVtb9zP1qu78pjeqAgMTyG6xuaStYOSgxfLuqdMGFyQhDutCnqmP9M/jLsFs/guAO/5ePHUpZCBZH7Vw==",
+  "dgSpecHash": "f8YWtECPsRBlY7OnbtOaArF9sJnl13opikjbzaFUL17agukmlM6/0w1j4F49PvIu80ZpEBlS8aNt9bI3MXnUVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\JWTAuthorizePolicy\\JWTAuthorizePolicy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

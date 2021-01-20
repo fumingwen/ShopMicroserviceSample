@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G6DTbj2gxew5pD0nU+53TR6on1o2wvVLbutbaY7GJex3DvoxL+ToLV5g+PzY0DpxVNRXjEfr4VQycP0tfiV3Ww==",
+  "dgSpecHash": "sgpvlIcmzyjFWYTypinMEdJI2KTwyminzQbZ/rC8do8WfTgyMJ0SZXSEWFGXM4v/dUGZtveQso/OFMw6sZDNDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\InpatientService\\InpatientService.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\InpatientService\\InpatientService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\SettlementService\\SettlementService.csproj",
+      "projectUniqueName": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SettlementService\\SettlementService.csproj",
       "projectName": "SettlementService",
-      "projectPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\SettlementService\\SettlementService.csproj",
+      "projectPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SettlementService\\SettlementService.csproj",
       "packagesPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\SettlementService\\obj\\",
+      "outputPath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\SettlementService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

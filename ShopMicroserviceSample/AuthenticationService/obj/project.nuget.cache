@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w1wnMSxc7qH8/3aYLnFcFrcjFXFD0Y6+hJqJAwrRSGhJ/U6caA1eX690hyBnj1sIHLopy3saIi8Ul2Um5T6hiQ==",
+  "dgSpecHash": "D9ziZMoR5C9YvVFWfID+U4z/qvRqD3iX7HpMvEjpR04zWUYTdKDLlUq7qtemRXHRlvy9YJegigL1DjWZUuyVeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator.DESKTOP-LOM86CH\\source\\repos\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
+  "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\AuthenticationService\\AuthenticationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
