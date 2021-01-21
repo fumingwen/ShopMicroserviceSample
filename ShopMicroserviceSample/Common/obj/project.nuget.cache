@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "nIJ/a7xp7YGph+QW1ev4WpIi4qMVhj5zJKMcSL6mug2uGZNf7+a6SD1UNMm652uf3mXXcJVzasnKizPd+qqxjg==",
+  "dgSpecHash": "G9Ef2Z/3QjEZp/1D1g7ksHo/crjmYULExtSLmoz8l+X3FVWNGsbX4c4b9Qe89yjRLw4xXkWWTDhkp943WXML9g==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
@@ -24,6 +32,7 @@
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],

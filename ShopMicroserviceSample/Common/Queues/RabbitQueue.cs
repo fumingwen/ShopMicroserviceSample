@@ -44,9 +44,8 @@ namespace Common.Queue
 
         private void LoadConfig()
         {
-            if (config != null) return;
-
-            var path = string.Format("{0}Config\\RabbitConfig.json", AppDomain.CurrentDomain.BaseDirectory);
+            if (config != null) return; 
+            var path = string.Format("{0}RabbitConfig.json", AppDomain.CurrentDomain.BaseDirectory);
             var configs = FileUtil.FromJsonFile<List<RabbitConfig>>(path);
             if (configs == null || configs.Count < 1) return;
 
