@@ -5,7 +5,7 @@ namespace Common.Queue
     /// <summary>
     /// RabbitMQ 服务器配置
     /// </summary>
-    internal class RabbitConfig
+    public class RabbitConfig
     {
         /// <summary>
         /// 配置名称

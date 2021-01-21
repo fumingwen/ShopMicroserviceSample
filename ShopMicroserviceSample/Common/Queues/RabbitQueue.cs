@@ -1,4 +1,5 @@
-﻿using Common.Tools;
+﻿using Common.Helper;
+using Common.Tools;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
@@ -43,13 +44,19 @@ namespace Common.Queue
         }
 
         private void LoadConfig()
-        {
-            if (config != null) return; 
-            var path = string.Format("{0}RabbitConfig.json", AppDomain.CurrentDomain.BaseDirectory);
-            var configs = FileUtil.FromJsonFile<List<RabbitConfig>>(path);
-            if (configs == null || configs.Count < 1) return;
+        { 
+            if (config != null) return;
 
-            config = configs.Where(rc => rc.ConfigName == configName).FirstOrDefault();
+            config = new RabbitConfig()
+            {
+                HostName = ConfigurtaionHelper.Configuration[$"RabbitMQ:HostName"],
+                UserName = ConfigurtaionHelper.Configuration[$"RabbitMQ:UserName"],
+                Password = ConfigurtaionHelper.Configuration[$"RabbitMQ:Password"],
+                ConfigName = ConfigurtaionHelper.Configuration[$"RabbitMQ:ConfigName"],
+                Port = int.Parse(ConfigurtaionHelper.Configuration[$"RabbitMQ:Port"]),
+                ConfigTime = DateTime.Parse(ConfigurtaionHelper.Configuration[$"RabbitMQ:ConfigTime"]),
+                Isvalid = bool.Parse(ConfigurtaionHelper.Configuration[$"RabbitMQ:Isvalid"])
+            };  
         }
 
         private ConnectionFactory CreateFactory()

@@ -109,3 +109,13 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\ServiceBasic.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Autofac.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DnsClient.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\MongoDB.Driver.GridFS.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\SharpCompress.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\snappy64.dll

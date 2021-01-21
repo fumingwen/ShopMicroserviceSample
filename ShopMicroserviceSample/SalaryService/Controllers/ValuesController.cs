@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Common.MongoDB;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SalaryService.Service;
@@ -26,7 +27,11 @@ namespace SalaryService.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var result = departmentService.Find(1); 
+            var helper = new MongoDbHelper("EdayingDB", false, true);
+            var result = userService.Find(1);
+
+            Task.Run(() => helper.Insert("User", result.Data));
+
             return Json(result);
         }
     }
