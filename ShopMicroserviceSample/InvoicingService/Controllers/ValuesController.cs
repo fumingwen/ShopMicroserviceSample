@@ -15,7 +15,7 @@ namespace InvoicingService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "title", "InvoicingService" };
+            return new string[] { "title", "到了这里InvoicingService" };
         }
 
         // GET api/values/5

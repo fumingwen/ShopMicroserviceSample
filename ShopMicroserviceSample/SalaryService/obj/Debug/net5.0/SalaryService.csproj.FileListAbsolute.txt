@@ -107,3 +107,5 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Common.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\ServiceBasic.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\ServiceBasic.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Autofac.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll

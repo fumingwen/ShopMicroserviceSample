@@ -15,4 +15,3 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.pdb
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Debug\netcoreapp3.1\JWTAuthorizePolicy.csprojAssemblyReference.cache

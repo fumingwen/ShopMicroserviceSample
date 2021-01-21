@@ -1,3 +1,4 @@
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -22,6 +23,6 @@ namespace SalaryService
                      {
                          webBuilder.UseUrls("http://*:6808");
                          webBuilder.UseStartup<Startup>();
-                     });
+                     }).UseServiceProviderFactory(new AutofacServiceProviderFactory());
     }
 }

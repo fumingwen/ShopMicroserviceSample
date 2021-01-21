@@ -9,14 +9,16 @@ using System.Threading.Tasks;
 
 namespace SalaryService.Controllers
 {
-    [Authorize("Permission")]
+    //[Authorize("Permission")]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private readonly IDepartmentService departmentService;
         private readonly IUserService userService;
 
-        public ValuesController(IUserService userService)
+        public ValuesController(IUserService userService, IDepartmentService departmentService)
         {
+            this.departmentService = departmentService;
             this.userService = userService;
         }
 
@@ -24,7 +26,7 @@ namespace SalaryService.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var result = userService.Find(1);
+            var result = departmentService.Find(1); 
             return Json(result);
         }
     }

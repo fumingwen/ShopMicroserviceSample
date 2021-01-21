@@ -1,3 +1,4 @@
+using Autofac;
 using Common.Caches;
 using JWTAuthorizePolicy;
 using Microsoft.AspNetCore.Builder;
@@ -45,10 +46,12 @@ namespace SalaryService
 
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
              
-            services.AddTransient<IUserService, UserService>();
-            services.AddTransient<IUserData, UserData>();
+            //services.AddTransient<IUserService, UserService>();
+            //services.AddTransient<IUserData, UserData>();
 
             services.AddSingleton<IConfiguration>(Configuration);
+
+            services.AddControllers().AddControllersAsServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +70,11 @@ namespace SalaryService
             {
                 endpoints.MapControllers();
             });
+        }
+
+        public void ConfigureContainer(ContainerBuilder containerBuilder)
+        {
+            containerBuilder.RegisterModule<ConfigureAutofac>();
         }
     }
 }

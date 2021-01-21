@@ -117,7 +117,7 @@ namespace ConsoleClient
             var client = new RestClient(_url);
             //这里要在获取的令牌字符串前加Bearer
             string tk = "Bearer " + Convert.ToString(token?.access_token);
-            client.AddDefaultHeader("Authorization", tk);
+            client.AddDefaultHeader("Authorization", tk); 
             var request = new RestRequest("/salary/api/values", Method.GET);
             IRestResponse response = client.Execute(request);
             var content = ((int)response.StatusCode) == 401 ? response.Headers.FirstOrDefault(s => s.Name == "error")?.Value?.ToString() : response.Content;
