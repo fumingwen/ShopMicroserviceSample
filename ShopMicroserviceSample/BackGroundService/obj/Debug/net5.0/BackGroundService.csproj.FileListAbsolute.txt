@@ -30,7 +30,6 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\bin\D
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\bin\Debug\net5.0\BackGroundService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\bin\Debug\net5.0\ref\BackGroundService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\bin\Debug\net5.0\BackGroundService.pdb
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.csprojAssemblyReference.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.GeneratedMSBuildEditorConfig.editorconfig
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.AssemblyInfoInputs.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.AssemblyInfo.cs

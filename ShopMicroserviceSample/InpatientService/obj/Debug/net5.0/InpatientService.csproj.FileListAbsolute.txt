@@ -30,7 +30,6 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\bin\De
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\bin\Debug\net5.0\InpatientService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\bin\Debug\net5.0\ref\InpatientService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\bin\Debug\net5.0\InpatientService.pdb
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.csprojAssemblyReference.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.GeneratedMSBuildEditorConfig.editorconfig
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.AssemblyInfoInputs.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.AssemblyInfo.cs
