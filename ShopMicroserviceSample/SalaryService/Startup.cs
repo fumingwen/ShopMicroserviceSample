@@ -1,5 +1,7 @@
 using Autofac;
 using Common.Caches;
+using Common.Log;
+using Exceptionless;
 using JWTAuthorizePolicy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -45,13 +47,12 @@ namespace SalaryService
             services.AddControllers();
 
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-             
-            //services.AddTransient<IUserService, UserService>();
-            //services.AddTransient<IUserData, UserData>();
 
-            services.AddSingleton<IConfiguration>(Configuration);
+            //注入ExceptionlessLogger服务
+            services.AddSingleton<ILoggerHelper, ExceptionlessLogger>();
 
-            services.AddControllers().AddControllersAsServices();
+            //注入Configuration
+            services.AddSingleton(Configuration); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,6 +62,10 @@ namespace SalaryService
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            ExceptionlessClient.Default.Configuration.ApiKey = Configuration.GetSection("Exceptionless:ApiKey").Value;
+            ExceptionlessClient.Default.Configuration.ServerUrl = Configuration.GetSection("Exceptionless:ServerUrl").Value;
+            app.UseExceptionless();
 
             app.UseRouting();
 

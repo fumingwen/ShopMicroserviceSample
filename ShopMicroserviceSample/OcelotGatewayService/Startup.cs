@@ -74,7 +74,7 @@ namespace OcelotGatewayService
 
             var audienceConfig = Configuration.GetSection("Audience");
             //注入OcelotJwtBearer
-            services.AddOcelotJwtBearer(audienceConfig["Issuer"], audienceConfig["Issuer"], audienceConfig["Secret"], "GSWBearer");
+            services.AddOcelotJwtBearer(audienceConfig["Issuer"], audienceConfig["Issuer"], audienceConfig["Secret"], "FMWBearer");
 
             //添加Ocelot，注意configuration.json的路径，我本身就放在了根路径下
             services.AddOcelot(new ConfigurationBuilder()

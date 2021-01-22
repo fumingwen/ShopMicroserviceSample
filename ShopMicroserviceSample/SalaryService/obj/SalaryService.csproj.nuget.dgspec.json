@@ -43,6 +43,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Exceptionless": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -316,6 +320,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "Exceptionless.AspNetCore": {
+              "target": "Package",
+              "version": "[4.6.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -119,3 +119,8 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Exceptionless.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Exceptionless.AspNetCore.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Exceptionless.Extensions.Hosting.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll

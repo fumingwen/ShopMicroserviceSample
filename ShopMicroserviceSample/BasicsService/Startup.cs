@@ -30,7 +30,7 @@ namespace BasicsService
 
             //读取配置文件
             var audienceConfig = Configuration.GetSection("Audience");
-            services.AddOcelotPolicyJwtBearer(audienceConfig["Issuer"], audienceConfig["Audience"], audienceConfig["Secret"], "GSWBearer", "Permission", "no permission");
+            services.AddOcelotPolicyJwtBearer(audienceConfig["Issuer"], audienceConfig["Audience"], audienceConfig["Secret"], "FMWBearer", "Permission", "no permission");
             //这个集合模拟用户权限表,可从数据库中查询出来
             var permission = new List<Permission> {
                               new Permission {  Url="/", Name="admin"},
@@ -45,15 +45,12 @@ namespace BasicsService
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            app.UseExceptionless(apiKey: "OBNJBtn7I42oChWLhqiKM5CkJeNwZejfvWMS9m2L");
+        { 
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
-
-            //app.UseHttpsRedirection();
+            } 
 
             app.UseRouting();
 

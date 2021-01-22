@@ -81,7 +81,7 @@ namespace ConsoleClient
 
             var loginClient = new RestClient(_url);
             var loginRequest = new RestRequest("/authentication/authapi/login", Method.POST);
-            loginRequest.AddParameter("username", "gsw");
+            loginRequest.AddParameter("username", "fmw");
             loginRequest.AddParameter("password", "111111");
             IRestResponse loginResponse = loginClient.Execute(loginRequest);
             var loginContent = loginResponse.Content;

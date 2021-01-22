@@ -62,3 +62,5 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net5.0\Exceptionless.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\MQService\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
