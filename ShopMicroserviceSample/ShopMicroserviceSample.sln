@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBasic", "DataBasic\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalaryService", "SalaryService\SalaryService.csproj", "{16BC81DD-63BD-490E-BB3B-69F01A61B97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQService", "MQService\MQService.csproj", "{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQService", "MQService\MQService.csproj", "{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{94598EF1-C5B7-4811-A002-60857A804D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94598EF1-C5B7-4811-A002-60857A804D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94598EF1-C5B7-4811-A002-60857A804D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94598EF1-C5B7-4811-A002-60857A804D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94598EF1-C5B7-4811-A002-60857A804D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{AC5F5974-631F-4DC5-B089-E5E534F6AE8B} = {99776494-D247-4DA6-BEFF-0C583B73F6EB}
 		{16BC81DD-63BD-490E-BB3B-69F01A61B97C} = {A7D9C0E1-4EBD-424E-A9BB-83AFFF92F24D}
 		{434E9A71-5DC3-49C0-8D8B-C9BCD779DCF0} = {A7D9C0E1-4EBD-424E-A9BB-83AFFF92F24D}
+		{94598EF1-C5B7-4811-A002-60857A804D77} = {64DA1AAB-306F-46C6-AA15-C0A0F540EFAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F257BF12-2F4A-4D0E-A404-1886A68B7B61}

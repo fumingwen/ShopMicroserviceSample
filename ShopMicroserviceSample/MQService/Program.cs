@@ -33,8 +33,7 @@ namespace MQService
                     capBus.Publish(queueName, queue.Message);
                     queue1.AfterReceive(sender, queue.Index, false);
                 });
-            }
-            host.Run();
+            } 
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
