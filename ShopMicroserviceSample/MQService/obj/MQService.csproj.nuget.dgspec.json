@@ -146,6 +146,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "DotNetCore.CAP.Dashboard": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "DotNetCore.CAP.MongoDB": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Exceptionless": {
               "target": "Package",
               "version": "[4.6.2, )"
@@ -170,6 +186,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

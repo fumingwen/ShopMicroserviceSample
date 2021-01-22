@@ -43,3 +43,4 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\De
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\ref\InpatientService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.genruntimeconfig.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\InpatientService\obj\Debug\net5.0\InpatientService.csprojAssemblyReference.cache

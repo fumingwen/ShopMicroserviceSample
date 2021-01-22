@@ -41,6 +41,18 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "Consul/1.6.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "Dapper/2.0.78": {
         "type": "package",
         "compile": {
@@ -57,6 +69,72 @@
         },
         "runtime": {
           "lib/netstandard2.1/DnsClient.dll": {}
+        }
+      },
+      "DotNetCore.CAP/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Options": "3.1.7",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Diagnostics.DiagnosticSource": "4.7.1",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/DotNetCore.CAP.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.dll": {}
+        }
+      },
+      "DotNetCore.CAP.Dashboard/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Consul": "1.6.1.1",
+          "DotNetCore.CAP": "3.1.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "resource": {
+          "lib/netcoreapp3.1/zh/DotNetCore.CAP.Dashboard.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "DotNetCore.CAP.MongoDB/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "DotNetCore.CAP": "3.1.2",
+          "MongoDB.Bson": "2.11.3",
+          "MongoDB.Driver": "2.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/DotNetCore.CAP.MongoDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.MongoDB.dll": {}
+        }
+      },
+      "DotNetCore.CAP.RabbitMQ/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "DotNetCore.CAP": "3.1.2",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/DotNetCore.CAP.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetCore.CAP.RabbitMQ.dll": {}
         }
       },
       "Exceptionless/4.6.2": {
@@ -680,13 +758,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.7",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
@@ -3227,6 +3305,19 @@
         "lib/xamarinios/BouncyCastle.Crypto.xml"
       ]
     },
+    "Consul/1.6.1.1": {
+      "sha512": "AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
+      "type": "package",
+      "path": "consul/1.6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.1.1.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
+      ]
+    },
     "Dapper/2.0.78": {
       "sha512": "vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
       "type": "package",
@@ -3264,6 +3355,62 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "DotNetCore.CAP/3.1.2": {
+      "sha512": "LFgUxYNuoQmROiZgzz5oWR1n1uxuaM4/2j8B7DJ1t+pYpsJRIba3SXBbcIf89cHQ0I7zZJwTq2hnMFtp36dN0w==",
+      "type": "package",
+      "path": "dotnetcore.cap/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetcore.cap.3.1.2.nupkg.sha512",
+        "dotnetcore.cap.nuspec",
+        "lib/netstandard2.0/DotNetCore.CAP.dll",
+        "lib/netstandard2.0/DotNetCore.CAP.pdb",
+        "lib/netstandard2.0/DotNetCore.CAP.xml"
+      ]
+    },
+    "DotNetCore.CAP.Dashboard/3.1.2": {
+      "sha512": "eonh3kjFOaol1qSyTrPhPSLFNoZXiSEN3kDf/phLVNaE9/RpRndVXnj8LRYm0QvjBFXZlr05PHEBbzw3EWgf8w==",
+      "type": "package",
+      "path": "dotnetcore.cap.dashboard/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetcore.cap.dashboard.3.1.2.nupkg.sha512",
+        "dotnetcore.cap.dashboard.nuspec",
+        "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll",
+        "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.pdb",
+        "lib/netcoreapp3.1/zh/DotNetCore.CAP.Dashboard.resources.dll"
+      ]
+    },
+    "DotNetCore.CAP.MongoDB/3.1.2": {
+      "sha512": "8ZxsMfS1E/FVlceIbbaKcMrhYP3Ul08CMAh99TkSFvcT9rawiEKE2QCIs8dLdgpAZnjxqilFEw+GEfiyhnn+6Q==",
+      "type": "package",
+      "path": "dotnetcore.cap.mongodb/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetcore.cap.mongodb.3.1.2.nupkg.sha512",
+        "dotnetcore.cap.mongodb.nuspec",
+        "lib/netstandard2.0/DotNetCore.CAP.MongoDB.dll",
+        "lib/netstandard2.0/DotNetCore.CAP.MongoDB.pdb",
+        "lib/netstandard2.0/DotNetCore.CAP.MongoDB.xml"
+      ]
+    },
+    "DotNetCore.CAP.RabbitMQ/3.1.2": {
+      "sha512": "C3ptlzAvAVoAe4EMtq6DLQ4zSb8IvRn/MiDDU7BMfADvUGdao50fgkGmSHLD/0JSDZOwQid4shC6gkZGPPZGHQ==",
+      "type": "package",
+      "path": "dotnetcore.cap.rabbitmq/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetcore.cap.rabbitmq.3.1.2.nupkg.sha512",
+        "dotnetcore.cap.rabbitmq.nuspec",
+        "lib/netstandard2.0/DotNetCore.CAP.RabbitMQ.dll",
+        "lib/netstandard2.0/DotNetCore.CAP.RabbitMQ.pdb",
+        "lib/netstandard2.0/DotNetCore.CAP.RabbitMQ.xml"
       ]
     },
     "Exceptionless/4.6.2": {
@@ -4073,20 +4220,20 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
-      "sha512": "LiOP1ceFaPBxaE28SOjtORzOVCJk33TT5VQ/Cg5EoatZh1dxpPAgAV/0ruzWKQE7WAHU3F1H9Z6rFgsQwIb9uQ==",
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.7": {
+      "sha512": "4j6lSyPJF2emznd7Y4nZp8UbVyhe/defMPyFBV+YfINbAgJ3HgUPWp2QdsO87WOzWjlXTU4ZFwL2fuuMbwdR5g==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.0",
+      "path": "microsoft.extensions.hosting.abstractions/3.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.0.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec",
-        "packageIcon.png"
+        "microsoft.extensions.hosting.abstractions.3.1.7.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
@@ -9519,6 +9666,10 @@
     "net5.0": [
       "Autofac.Extensions.DependencyInjection >= 7.1.0",
       "DataBasic >= 1.0.0",
+      "DotNetCore.CAP >= 3.1.2",
+      "DotNetCore.CAP.Dashboard >= 3.1.2",
+      "DotNetCore.CAP.MongoDB >= 3.1.2",
+      "DotNetCore.CAP.RabbitMQ >= 3.1.2",
       "Exceptionless.AspNetCore >= 4.6.2",
       "JWTAuthorizePolicy >= 1.0.0",
       "ServiceBasic >= 1.0.0",
@@ -9582,6 +9733,22 @@
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[7.1.0, )"
+          },
+          "DotNetCore.CAP": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "DotNetCore.CAP.Dashboard": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "DotNetCore.CAP.MongoDB": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "DotNetCore.CAP.RabbitMQ": {
+            "target": "Package",
+            "version": "[3.1.2, )"
           },
           "Exceptionless.AspNetCore": {
             "target": "Package",

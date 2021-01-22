@@ -1,7 +1,11 @@
-﻿using Common.Queue; 
+﻿using Common.Queue;
+using Common.Queues;
+using DotNetCore.CAP;
 using Exceptionless;
 using Exceptionless.Logging;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.IO;  
 
@@ -9,26 +13,14 @@ namespace MQService
 {
     class Program
     {
-          
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            ExceptionlessClient.Default.Configuration.ApiKey = "mFUwHaX47rWy30AGexwltm0rf504zgend1i9zZge";
-            ExceptionlessClient.Default.Configuration.ServerUrl = "http://localhost:50000";
-            ExceptionlessClient.Default.Startup();
-            ExceptionlessClient.Default.SubmitLog("这是一个普通日志记录code:{12345678999}", LogLevel.Info);
-
-            try
-            {
-                ExceptionlessClient.Default.CreateLog("出错了", LogLevel.Error).Submit(); ;
-                throw new Exception($"看这里异常了!时间：{DateTime.Now}");
-            }
-            catch(Exception ex)
-            {
-                ex.ToExceptionless().Submit();
-            }
+            var host = CreateHostBuilder(args).Build();
+            ServiceLocator.SetServices(host.Services);
+            var capBus = ServiceLocator.GetService<ICapPublisher>();
 
             var configurationRoot = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-            var queueName = configurationRoot["RabbitMQ:QueueName"]; 
+            var queueName = configurationRoot["RabbitMQ:QueueName"];
             IQueue queue1 = new RabbitQueue();
 
             Console.WriteLine("接收MQ消息中......");
@@ -37,13 +29,20 @@ namespace MQService
             {
                 queue1.BeginReceive(queueName, (sender, queue) =>
                 {
-                    //receive a message
-                    var message = "我收到消息啦！" + queue.Message;
-                    Console.WriteLine(message);
-                    queue1.AfterReceive(sender, queue.Index, false);    //delete it after respond 
+                    Console.WriteLine("接收到队列[{0}]的消息，内容;[{1}]", queueName, queue.Message);
+                    capBus.Publish(queueName, queue.Message);
+                    queue1.AfterReceive(sender, queue.Index, false);
                 });
             }
-
+            host.Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+                 Host.CreateDefaultBuilder(args)
+                     .ConfigureWebHostDefaults(webBuilder =>
+                     {
+                         webBuilder.UseUrls("http://*:6810");
+                         webBuilder.UseStartup<Startup>();
+                     });
     }
 }

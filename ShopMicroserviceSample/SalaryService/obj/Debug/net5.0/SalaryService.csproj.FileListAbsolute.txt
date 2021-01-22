@@ -124,3 +124,9 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Exceptionless.Extensions.Hosting.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Consul.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.Dashboard.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.MongoDB.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.RabbitMQ.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\zh\DotNetCore.CAP.Dashboard.resources.dll

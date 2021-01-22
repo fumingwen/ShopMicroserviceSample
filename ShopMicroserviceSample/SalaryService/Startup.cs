@@ -52,7 +52,34 @@ namespace SalaryService
             services.AddSingleton<ILoggerHelper, ExceptionlessLogger>();
 
             //×¢ÈëConfiguration
-            services.AddSingleton(Configuration); 
+            services.AddSingleton(Configuration);
+
+            services.AddCap(x =>
+            {
+                x.Version = Configuration["RabbitMQ:ExchangeName"];
+                //x.ConsumerThreadCount = 15;
+                x.UseMongoDB(op =>
+                {
+                    op.DatabaseConnection = Configuration["MongoDB"];
+                    op.DatabaseName = "EdayingDB";
+                    op.PublishedCollection = "EdayingPublish";
+                    op.ReceivedCollection = "EdayingReceived";
+                });
+                x.UseRabbitMQ(o =>
+                {
+                    //o.HostName ="192.168.223.32";
+                    o.HostName = Configuration["RabbitMQ:HostName"];
+                    o.UserName = Configuration["RabbitMQ:UserName"];
+                    o.Password = Configuration["RabbitMQ:Password"];
+                    o.Port = int.Parse(Configuration["RabbitMQ:Port"]);
+                });
+                x.ConsumerThreadCount = 3;
+                x.FailedRetryCount = 0;
+                x.FailedRetryInterval = 10;
+                x.UseDashboard();
+                x.Version = Configuration["RabbitMQ:ExchangeName"];
+                //x.DefaultGroup = Configuration["SCADAQueueName"];
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

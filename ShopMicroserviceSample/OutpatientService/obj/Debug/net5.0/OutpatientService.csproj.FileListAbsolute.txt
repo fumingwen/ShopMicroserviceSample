@@ -40,7 +40,6 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\bin\D
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.csprojAssemblyReference.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.GeneratedMSBuildEditorConfig.editorconfig
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.AssemblyInfoInputs.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.AssemblyInfo.cs
