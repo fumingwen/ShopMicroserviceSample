@@ -2,6 +2,7 @@
 using StackExchange.Redis;
 using System;
 using System.Collections.Concurrent;
+using System.IO;
 
 namespace Common.Caches
 {
@@ -39,7 +40,7 @@ namespace Common.Caches
         {
             if (string.IsNullOrEmpty(ConfigPath))
             {
-                ConfigPath = string.Format("{0}Config\\RedisConfig.json", AppDomain.CurrentDomain.BaseDirectory);
+                ConfigPath = $"{Path.GetFullPath(@"..//..//..")}\\RedisConfig.json";
             }
         }
 

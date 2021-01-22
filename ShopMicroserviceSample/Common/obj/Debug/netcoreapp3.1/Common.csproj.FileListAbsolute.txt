@@ -6,3 +6,4 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\Common\bin\Debug\netcor
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\Common\bin\Debug\netcoreapp3.1\Common.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\Common\obj\Debug\netcoreapp3.1\Common.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\Common\obj\Debug\netcoreapp3.1\Common.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache

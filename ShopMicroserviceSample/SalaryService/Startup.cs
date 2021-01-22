@@ -66,8 +66,7 @@ namespace SalaryService
                     op.ReceivedCollection = "EdayingReceived";
                 });
                 x.UseRabbitMQ(o =>
-                {
-                    //o.HostName ="192.168.223.32";
+                { 
                     o.HostName = Configuration["RabbitMQ:HostName"];
                     o.UserName = Configuration["RabbitMQ:UserName"];
                     o.Password = Configuration["RabbitMQ:Password"];
@@ -77,12 +76,10 @@ namespace SalaryService
                 x.FailedRetryCount = 0;
                 x.FailedRetryInterval = 10;
                 x.UseDashboard();
-                x.Version = Configuration["RabbitMQ:ExchangeName"];
-                //x.DefaultGroup = Configuration["SCADAQueueName"];
+                x.Version = Configuration["RabbitMQ:ExchangeName"]; 
             });
         }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

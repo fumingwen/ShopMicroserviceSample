@@ -1,0 +1,14 @@
+{
+  "EndPoints": [
+    "192.168.199.128:6379",
+    "192.168.1.239:6380"
+  ],
+  "ClientName": "Edaying",
+  "AllowAdmin": false,
+  "ConnectRetry": 3,
+  "ConnectTimeout": 10000,
+  "Password": "",
+  "DatabaseIndex": 0,
+  "Ssl": false,
+  "AbortOnConnectFail": true
+}
