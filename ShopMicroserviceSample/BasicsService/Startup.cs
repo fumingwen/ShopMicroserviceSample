@@ -1,3 +1,4 @@
+using Common.Consul;
 using Exceptionless;
 using JWTAuthorizePolicy;
 using Microsoft.AspNetCore.Builder;
@@ -40,17 +41,21 @@ namespace BasicsService
             services.AddControllers();
 
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime, ConsulOption consulOption)
         { 
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            } 
+            }
+
+            // ×¢²áConsul
+            app.RegisterConsul(lifetime, consulOption);
 
             app.UseRouting();
 

@@ -130,3 +130,5 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.MongoDB.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\DotNetCore.CAP.RabbitMQ.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\zh\DotNetCore.CAP.Dashboard.resources.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\SalaryService\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

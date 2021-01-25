@@ -1,4 +1,5 @@
-﻿using Common.Queue;
+﻿using Common.Helper;
+using Common.Queue;
 using Common.Queues;
 using DotNetCore.CAP;
 using Exceptionless;
@@ -18,9 +19,8 @@ namespace MQService
             var host = CreateHostBuilder(args).Build();
             ServiceLocator.SetServices(host.Services);
             var capBus = ServiceLocator.GetService<ICapPublisher>();
-
-            var configurationRoot = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-            var queueName = configurationRoot["RabbitMQ:QueueName"];
+             
+            var queueName = ConfigurtaionHelper.Configuration["Exceptionless:ApiKey"];
             IQueue queue1 = new RabbitQueue();
 
             Console.WriteLine("接收MQ消息中......");

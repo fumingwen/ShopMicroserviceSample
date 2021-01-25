@@ -1,4 +1,5 @@
 using App.Metrics;
+using Common.Consul;
 using JWTAuthorizePolicy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,43 +33,43 @@ namespace OcelotGatewayService
         public void ConfigureServices(IServiceCollection services)
         {
             #region Metrics监控配置
-            string IsOpen = Configuration.GetSection("InfluxDB:IsOpen").Value.ToLower();
-            if (IsOpen == "true")
-            {
-                string database = Configuration.GetSection("InfluxDB")["DataBaseName"];
-                string InfluxDBConStr = Configuration.GetSection("InfluxDB")["ConnectionString"];
-                string app = Configuration.GetSection("InfluxDB")["app"];
-                string env = Configuration.GetSection("InfluxDB")["env"];
-                string username = Configuration.GetSection("InfluxDB")["username"];
-                string password = Configuration.GetSection("InfluxDB")["password"];
-                var uri = new Uri(InfluxDBConStr);
+            //string IsOpen = Configuration.GetSection("InfluxDB:IsOpen").Value.ToLower();
+            //if (IsOpen == "true")
+            //{
+            //    string database = Configuration.GetSection("InfluxDB")["DataBaseName"];
+            //    string InfluxDBConStr = Configuration.GetSection("InfluxDB")["ConnectionString"];
+            //    string app = Configuration.GetSection("InfluxDB")["app"];
+            //    string env = Configuration.GetSection("InfluxDB")["env"];
+            //    string username = Configuration.GetSection("InfluxDB")["username"];
+            //    string password = Configuration.GetSection("InfluxDB")["password"];
+            //    var uri = new Uri(InfluxDBConStr);
 
-                var metrics = AppMetrics.CreateDefaultBuilder()
-                .Configuration.Configure(
-                options =>
-                {
-                    options.AddAppTag(app);
-                    options.AddEnvTag(env);
-                })
-                .Report.ToInfluxDb(
-                options =>
-                {
-                    options.InfluxDb.BaseUri = uri;
-                    options.InfluxDb.Database = database;
-                    options.InfluxDb.UserName = username;
-                    options.InfluxDb.Password = password;
-                    options.HttpPolicy.BackoffPeriod = TimeSpan.FromSeconds(30);
-                    options.HttpPolicy.FailuresBeforeBackoff = 5;
-                    options.HttpPolicy.Timeout = TimeSpan.FromSeconds(10);
-                    options.FlushInterval = TimeSpan.FromSeconds(5);
-                })
-                .Build();
+            //    var metrics = AppMetrics.CreateDefaultBuilder()
+            //    .Configuration.Configure(
+            //    options =>
+            //    {
+            //        options.AddAppTag(app);
+            //        options.AddEnvTag(env);
+            //    })
+            //    .Report.ToInfluxDb(
+            //    options =>
+            //    {
+            //        options.InfluxDb.BaseUri = uri;
+            //        options.InfluxDb.Database = database;
+            //        options.InfluxDb.UserName = username;
+            //        options.InfluxDb.Password = password;
+            //        options.HttpPolicy.BackoffPeriod = TimeSpan.FromSeconds(30);
+            //        options.HttpPolicy.FailuresBeforeBackoff = 5;
+            //        options.HttpPolicy.Timeout = TimeSpan.FromSeconds(10);
+            //        options.FlushInterval = TimeSpan.FromSeconds(5);
+            //    })
+            //    .Build();
 
-                services.AddMetrics(metrics);
-                services.AddMetricsReportScheduler();
-                services.AddMetricsTrackingMiddleware();
-                services.AddMetricsEndpoints();
-            }
+            //    services.AddMetrics(metrics);
+            //    services.AddMetricsReportScheduler();
+            //    services.AddMetricsTrackingMiddleware();
+            //    services.AddMetricsEndpoints();
+            //}
 
             #endregion
 
@@ -83,22 +84,39 @@ namespace OcelotGatewayService
                 .AddCacheManager(x => x.WithDictionaryHandle());  // 添加 Ocelot.Cache.CacheManager 实现缓存
 
             services.AddControllers();
+
+            services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime, ConsulOption consulOption)
         {
-            #region 使用中间件Metrics
-            string IsOpen = Configuration.GetSection("InfluxDB")["IsOpen"].ToLower();
-            if (IsOpen == "true")
+            if (env.IsDevelopment())
             {
-                app.UseMetricsAllMiddleware();
-                app.UseMetricsAllEndpoints();
+                app.UseDeveloperExceptionPage();
             }
+
+            #region 使用中间件Metrics
+            //string IsOpen = Configuration.GetSection("InfluxDB")["IsOpen"].ToLower();
+            //if (IsOpen == "true")
+            //{
+            //    app.UseMetricsAllMiddleware();
+            //    app.UseMetricsAllEndpoints();
+            //}
             #endregion
+
+            app.UseRouting(); 
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
             //配置使用Ocelot
             app.UseOcelot().Wait();
+
+            // 注册Consul
+            app.RegisterConsul(lifetime, consulOption);
         } 
     }
 }

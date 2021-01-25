@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace SalaryService.Controllers
 {
-    //[Authorize("Permission")]
+    [Authorize("Permission")]
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {

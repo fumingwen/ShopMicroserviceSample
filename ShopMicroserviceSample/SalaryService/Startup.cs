@@ -1,5 +1,6 @@
 using Autofac;
 using Common.Caches;
+using Common.Consul;
 using Common.Log;
 using Exceptionless;
 using JWTAuthorizePolicy;
@@ -78,9 +79,11 @@ namespace SalaryService
                 x.UseDashboard();
                 x.Version = Configuration["RabbitMQ:ExchangeName"]; 
             });
+
+            services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());
         }
-         
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime, ConsulOption consulOption)
         {
             if (env.IsDevelopment())
             {
@@ -90,6 +93,9 @@ namespace SalaryService
             ExceptionlessClient.Default.Configuration.ApiKey = Configuration.GetSection("Exceptionless:ApiKey").Value;
             ExceptionlessClient.Default.Configuration.ServerUrl = Configuration.GetSection("Exceptionless:ServerUrl").Value;
             app.UseExceptionless();
+
+            // ×¢²áConsul
+            app.RegisterConsul(lifetime, consulOption);
 
             app.UseRouting();
 
