@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2s250pFP3lQEbH5a1GMLy3EqwmVm8M2oRY1iNtLCA3ldU/zYH5pdwwX8I7OKvZLScN1AY16Mk3SGQJPtDkdG2g==",
+  "dgSpecHash": "cwC0/7CnRyMEwdkS7Hv7B48l9iuneF3I76CwsNbnujAqCIoa3l3sjAMhUQeE0dPfrSB7aKeChLVfzUppsB+Veg==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\InvoicingService\\InvoicingService.csproj",
   "expectedPackageFiles": [

@@ -7,3 +7,12 @@ C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAu
 C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
 C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.dll
 C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Release\netcoreapp3.1\JWTAuthorizePolicy.deps.json
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Release\netcoreapp3.1\JWTAuthorizePolicy.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\bin\Release\netcoreapp3.1\JWTAuthorizePolicy.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.csprojAssemblyReference.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.AssemblyInfoInputs.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.AssemblyInfo.cs
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\JWTAuthorizePolicy\obj\Release\netcoreapp3.1\JWTAuthorizePolicy.pdb

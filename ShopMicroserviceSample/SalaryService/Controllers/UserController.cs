@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SalaryService.Controllers
 {
-    [AllowAnonymous]
+    [Authorize("Permission")]
     [Route("api/[controller]")]
     public class UserController : Controller
     { 

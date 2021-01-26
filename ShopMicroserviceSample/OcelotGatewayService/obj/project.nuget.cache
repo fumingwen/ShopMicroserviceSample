@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8UpdcZ42Ljhp/GxufMxlhWPo86VaxRuL2Ixmu66T/T+JT72aKgiCm6VXHrzcn1H3iJPOGARy8AVSuvrL+S6c2A==",
+  "dgSpecHash": "iY4xbHlubcHjFntvACpYUyN6SlmP8Bl1tPft1nfBv4yJ9rDjcWoIcRrPmZtpx2iVeCdapBjYLJXNBf5T6UgCXQ==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\OcelotGatewayService\\OcelotGatewayService.csproj",
   "expectedPackageFiles": [

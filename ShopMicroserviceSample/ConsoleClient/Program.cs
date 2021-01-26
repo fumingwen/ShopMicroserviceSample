@@ -7,7 +7,7 @@ using System.Linq;
 namespace ConsoleClient
 {
     class Program
-    {
+    { 
         /// <summary>
         /// 访问Url
         /// </summary>

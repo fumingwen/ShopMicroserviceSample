@@ -43,3 +43,4 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\D
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\ref\BackGroundService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.genruntimeconfig.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\BackGroundService\obj\Debug\net5.0\BackGroundService.csprojAssemblyReference.cache

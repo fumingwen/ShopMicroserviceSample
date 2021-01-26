@@ -18,12 +18,6 @@ C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\Conso
 C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.pdb
 C:\Users\Administrator.DESKTOP-LOM86CH\source\repos\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.genruntimeconfig.cache
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.exe
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.deps.json
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.runtimeconfig.json
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.runtimeconfig.dev.json
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.dll
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ref\ConsoleClient.dll
-D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\RestSharp.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.csprojAssemblyReference.cache
@@ -35,4 +29,10 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ref\ConsoleClient.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.pdb
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.deps.json
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.runtimeconfig.json
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.runtimeconfig.dev.json
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ref\ConsoleClient.dll
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\bin\Debug\net5.0\ConsoleClient.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\ConsoleClient\obj\Debug\net5.0\ConsoleClient.genruntimeconfig.cache

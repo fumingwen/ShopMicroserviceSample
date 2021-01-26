@@ -15,7 +15,8 @@ namespace OcelotGatewayService
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run(); 
+            Console.WriteLine("OcelotGatewayService 服务已启动，端口号为：6800，时间：{0}", DateTime.Now);
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

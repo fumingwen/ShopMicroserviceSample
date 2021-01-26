@@ -55,3 +55,4 @@ D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\D
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\ref\OutpatientService.dll
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.pdb
 D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.genruntimeconfig.cache
+D:\sources\ShopMicroserviceSample\ShopMicroserviceSample\OutpatientService\obj\Debug\net5.0\OutpatientService.csprojAssemblyReference.cache

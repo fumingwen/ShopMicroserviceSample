@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ij4GNmDIz61LAyvJttNFbztmPgzoPDNe/kxzYC+S6aR6xfmNyX3uN44jbZbAHYd4pM7HjDVEEC0XYMWFtOB36w==",
+  "dgSpecHash": "GhcoqwZwlaGHHL79ATS0s2P59JQ5B1J7jx3O0lfBpdL1DXv7iMKIYIyCKjqlTSd8C8dKH4Pul6IfEuHlrwRNFQ==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\Common\\Common.csproj",
   "expectedPackageFiles": [
@@ -115,7 +115,6 @@
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator.DESKTOP-LOM86CH\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",

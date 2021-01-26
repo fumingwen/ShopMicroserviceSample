@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QN8EauKgWJqrg05LH4s1ajDdfBvIySc9foPX8Q+ujeFZMwNpDCmdK8h89UPS3/1n9yUroiZ9jAcO5OtcbsYFTg==",
+  "dgSpecHash": "5UPY1MSltWcstzEf0R/f47T0Py3vj+iVs34yketenji+qj+lyYapJgvUlO1LA62fOCBl8DbF7mYQaOGD1oK4lQ==",
   "success": true,
   "projectFilePath": "D:\\sources\\ShopMicroserviceSample\\ShopMicroserviceSample\\MQService\\MQService.csproj",
   "expectedPackageFiles": [
